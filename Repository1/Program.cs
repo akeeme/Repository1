@@ -4,7 +4,7 @@ namespace MyConsoleApplication
 {
     class Student
     {
-        public string name;
+        public string name = "";
         public int id;
     };
 
@@ -20,6 +20,14 @@ namespace MyConsoleApplication
             var Chase = new Student();
             Chase.name = "Chase";
             Chase.id = 2;
+
+            var Keem = new Student();
+            Keem.name = "Keem";
+            Keem.id = 3;
+
+            System.Console.WriteLine(Keem.name);
+            System.Console.WriteLine(Keem.id);
+
         }
     }
 
